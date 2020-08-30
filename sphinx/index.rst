@@ -3,10 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to MachineLearning's documentation!
-===========================================
+Documentation for MachineLearning Repository
+=============================================
 
-This is a description of the website.
+This is a description of the website. Inline formula $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$,
+
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+
+by itself formula.
 
 .. toctree::
    :maxdepth: 2
