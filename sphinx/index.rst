@@ -6,11 +6,13 @@
 Documentation for MachineLearning Repository
 =============================================
 
-This is a description of the website. Inline formula $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$,
+This is a description of the website. Inline formula :math:`\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}`,
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+doing some math in a line by itself:
 
-by itself formula.
+.. math::
+
+   \sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}
 
 .. toctree::
    :maxdepth: 2
