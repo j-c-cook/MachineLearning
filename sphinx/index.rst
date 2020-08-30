@@ -14,13 +14,15 @@ doing some math in a line by itself:
 
    \sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}
 
+See :cite:`Goodfellow-et-al-2016` for intro to deep learning.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    summary
    code
-   bibliography
+   zreferences
 
 
 
