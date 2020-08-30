@@ -6,11 +6,14 @@
 Welcome to MachineLearning's documentation!
 ===========================================
 
+This is a description of the website.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   ../code
+   summary
+   code
 
 
 
