@@ -6,6 +6,6 @@ Bibliography
 References
 --------------------
 
-.. bibliography:: references.bib
+.. bibliography:: ../references.bib
     :cited:
     :style: unsrt
