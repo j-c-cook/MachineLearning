@@ -20,6 +20,7 @@ doing some math in a line by itself:
 
    summary
    code
+   bibliography
 
 
 
