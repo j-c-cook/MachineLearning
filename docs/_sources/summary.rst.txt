@@ -1,8 +1,11 @@
-Summary
-=========
+####################
+Supervised Learning
+####################
+Supervised learning is ...
 
-Section 1
-----------
+--------------------
+Regression
+--------------------
 
-Section 1.1
-~~~~~~~~~~~~~
+Linear Regression
+==================
