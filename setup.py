@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-def getreqs(fname):
+def get_reqs(fname):
     """
     Get the requirements list from the text file
     JCC 03.10.2020
@@ -20,7 +20,7 @@ def getreqs(fname):
 setup(name='MachineLearning',
       version='0.0.1',
       packages=['MachineLearning'],
-      install_requires=getreqs('requirements.txt'),
+      install_requires=get_reqs('requirements.txt'),
       author='Jack C. Cook',
       author_email='jack.cook@okstate.edu',
       description='A package containing the scripts developed in CS 5783 at Oklahoma State University.')
