@@ -14,13 +14,19 @@ class PyPlotter:
         self.ax = ax
 
     def plot(self, x: np.ndarray, y: np.ndarray, label='', close=True, show=True, save_fig=True,
-             fig_name='output', fig_ext='jpg', marker='o') -> None:
+             fig_name='output', fig_ext='jpg', marker='o', plot_style='scatter', line_style='-') -> None:
         ax = self.ax
         fig = self.fig
-        if label == '':
-            ax.scatter(x, y)
-        else:
-            ax.scatter(x, y, label=label, marker=marker)
+        if plot_style == 'scatter':
+            if label == '':
+                ax.scatter(x, y)
+            else:
+                ax.scatter(x, y, label=label, marker=marker)
+        elif plot_style == 'plot':
+            if label == '':
+                ax.plot(x, y)
+            else:
+                ax.plot(x, y, label=label, marker=marker, ls=line_style)
 
         # get the legend entries and update the legend
         handles, labels = ax.get_legend_handles_labels()
