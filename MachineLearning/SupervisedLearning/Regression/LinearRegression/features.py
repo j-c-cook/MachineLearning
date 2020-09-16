@@ -119,14 +119,7 @@ def predict(training_data: np.ndarray, Y: np.ndarray, x: np.ndarray, tao: float)
     :param tao: bandwidth
     :return: the prediction and theta maximum likelihood
     """
-    M = training_data.shape[0]
-    all_ones = np.ones((M, 1))
-    # X_ = np.hstack((training_data, all_ones))
     X_ = training_data
-    # a = np.ones((1, 1))
-    # qx = np.mat([x, 1])
-    # x = x[:, np.newaxis]
-    # qx = np.hstack((x, a))
     qx = x
     W = weight_matrix(qx, X_, tao)
     # calculating parameter theta

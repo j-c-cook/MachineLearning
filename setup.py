@@ -19,7 +19,9 @@ def get_reqs(fname):
 
 setup(name='MachineLearning',
       version='0.0.1',
-      packages=['MachineLearning'],
+      packages=['MachineLearning', 'MachineLearning.SupervisedLearning',
+                'MachineLearning.SupervisedLearning.Regression',
+                'MachineLearning.SupervisedLearning.Regression.LinearRegression'],
       install_requires=get_reqs('requirements.txt'),
       author='Jack C. Cook',
       author_email='jack.cook@okstate.edu',
